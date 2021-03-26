@@ -7179,3 +7179,21 @@ html {
   html .dropdown.is-active .dropdown-menu,
   html .dropdown.is-hoverable:hover .dropdown-menu {
     display: block; }
+  html .comp-section {
+    padding: 20px; }
+  html .comp-section.is-blue {
+    background-color: #2b78c6; }
+  html .comp-section.is-white {
+    background-color: #fff;
+    color: #333; }
+  html section {
+    margin: 20px; }
+  html section input {
+    margin-bottom: 20px; }
+  html section textarea {
+    margin-bottom: 20px; }
+  html section .select,
+  html section select {
+    margin-bottom: 20px; }
+  html section .control.has-icons-left {
+    margin-bottom: 20px; }

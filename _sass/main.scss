@@ -72,6 +72,32 @@ html {
     .dropdown.is-hoverable:hover .dropdown-menu {
         display: block;
     }
+    .comp-section {
+        padding: 20px;
+    }
+    .comp-section.is-blue {
+        background-color: rgb(43, 120, 198);
+    }
+    .comp-section.is-white {
+        background-color: #fff;
+        color: #333;
+    }
+    section {
+        margin: 20px;
+    }
+    section input {
+        margin-bottom: 20px;
+    }
+    section textarea {
+        margin-bottom: 20px;
+    }
+    section .select,
+    section select {
+        margin-bottom: 20px;
+    }
+    section .control.has-icons-left {
+        margin-bottom: 20px;
+    }
     background-color: #fff;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
