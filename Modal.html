@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bulma Buttons</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://bulma.io/vendor/fontawesome-free-5.15.2-web/css/all.min.css">
+</head>
+
+<body>
+    <section class="hero is-medium is-normal">
+        <div class="hero-body">
+            <div>
+                <a class="button" href="index.html">index Page</a>
+            </div>
+            <br/>
+            <h1 class="title">Section</h1>
+            <h2 class="subtitle">
+                A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+            </h2>
+            <section>
+                <p>
+                    <button class="button is-primary is-large modal-button" data-target="modal1" aria-haspopup="true">Launch example modal-1</button>
+                </p>
+                <br/>
+                <p>
+                    <button class="button is-primary is-large modal-button" data-target="modal2" aria-haspopup="true">Launch example modal-2</button>
+                </p>
+                <br/>
+                <p>
+                    <button class="button is-primary is-large modal-button" data-target="modal3" aria-haspopup="true">Launch example modal-3</button>
+                </p>
+                <div id="modal1" class="modal">
+                    <div class="modal-background "></div>
+                    <div class="modal-content ">
+                        <article class="message">
+                            <div class="message-header">
+                                <p>Hello World</p>
+                                <button class="delete" aria-label="delete"></button>
+                            </div>
+                            <div class="message-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+                                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+                                sem eget, facilisis sodales sem.
+                            </div>
+                        </article>
+                    </div>
+                    <button class="modal-close is-large " aria-label="close "></button>
+                </div>
+                <div id="modal2" class="modal">
+                    <div class="modal-background "></div>
+                    <div class="modal-content ">
+                        <p class="image is-4by3 ">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png " alt=" ">
+                        </p>
+                    </div>
+                    <button class="modal-close is-large " aria-label="close "></button>
+                </div>
+                <div id="modal3" class="modal ">
+                    <div class="modal-background "></div>
+                    <div class="modal-card ">
+                        <header class="modal-card-head ">
+                            <p class="modal-card-title ">Modal title</p>
+                            <button class="delete " aria-label="close "></button>
+                        </header>
+                        <section class="modal-card-body ">
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-48x48">
+                                            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">John Smith</p>
+                                        <p class="subtitle is-6">@johnsmith</p>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                    <a href="#">#css</a> <a href="#">#responsive</a>
+                                    <br>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                </div>
+                            </div>
+                        </section>
+                        <footer class="modal-card-foot ">
+                            <button class="button is-success ">Save changes</button>
+                            <button class="button ">Cancel</button>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script type="text/javascript " src="lib/clipboard-1.7.1.min.js "></script>
+        <script type="text/javascript " src="lib/main.js "></script>
+</body>
+
+</html>
